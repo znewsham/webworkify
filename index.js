@@ -1,10 +1,9 @@
-var bundleFn = arguments[3];
-var sources = arguments[4];
-var cache = arguments[5];
-
 var stringify = JSON.stringify;
 
 module.exports = function (fn, options) {
+var bundleFn = arguments[3];
+var sources = arguments[4];
+var cache = arguments[5];
     var wkey;
     var cacheKeys = Object.keys(cache);
 
